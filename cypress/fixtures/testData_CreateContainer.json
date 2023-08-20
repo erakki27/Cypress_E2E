@@ -1,0 +1,14 @@
+{
+  "testCase1": {
+      "containerName": "Automation_Integrator_",
+      "containerDescription": "Automation_Integrator_",
+      "containerType": "Standard Container",
+      "tags": "public",
+      "containerTheme": "Primary Blue",
+      "theme1" : "Primary Blue",
+      "theme2" : "Secondary Light Blue",
+      "theme3" : "Secondary Indigo",
+      "theme4" : "Accent Orange",
+      "theme5" : "Accent Green"
+  }
+}

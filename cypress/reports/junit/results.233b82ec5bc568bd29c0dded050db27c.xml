@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="64.246" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2022-12-08T07:59:26" tests="0" file="cypress\e2e\HomePage\homepage.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Create Integrator Automation Suite" timestamp="2022-12-08T07:59:26" tests="2" time="64.221" failures="1">
+    <testcase name="Create Integrator Automation Suite &quot;before each&quot; hook for &quot;TC001_15293 : Verify the details on Home page&quot;" time="0.000" classname="&quot;before each&quot; hook for &quot;TC001_15293 : Verify the details on Home page&quot;">
+      <failure message="Timed out after waiting `60000ms` for your remote page to load.
+
+Your page did not fire its `load` event within `60000ms`.
+
+You can try increasing the `pageLoadTimeout` value in `cypress.config.js` to wait longer.
+
+Browsers will not fire the `load` event until all stylesheets and scripts are done downloading.
+
+When this `load` event occurs, Cypress will continue running commands.
+
+Because this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Create Integrator Automatio...`" type="CypressError"><![CDATA[CypressError: Timed out after waiting `60000ms` for your remote page to load.
+
+Your page did not fire its `load` event within `60000ms`.
+
+You can try increasing the `pageLoadTimeout` value in `cypress.config.js` to wait longer.
+
+Browsers will not fire the `load` event until all stylesheets and scripts are done downloading.
+
+When this `load` event occurs, Cypress will continue running commands.
+
+Because this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Create Integrator Automatio...`
+    at timedOutWaitingForPageLoad (https://gateway.zscalertwo.net/__cypress/runner/cypress_runner.js:141258:72)
+    at <unknown> (https://gateway.zscalertwo.net/__cypress/runner/cypress_runner.js:141649:16)
+    at tryCatcher (https://gateway.zscalertwo.net/__cypress/runner/cypress_runner.js:11327:23)
+    at <unknown> (https://gateway.zscalertwo.net/__cypress/runner/cypress_runner.js:6449:41)
+    at tryCatcher (https://gateway.zscalertwo.net/__cypress/runner/cypress_runner.js:11327:23)
+    at Promise._settlePromiseFromHandler (https://gateway.zscalertwo.net/__cypress/runner/cypress_runner.js:9262:31)
+    at Promise._settlePromise (https://gateway.zscalertwo.net/__cypress/runner/cypress_runner.js:9319:18)
+    at Promise._settlePromise0 (https://gateway.zscalertwo.net/__cypress/runner/cypress_runner.js:9364:10)
+    at Promise._settlePromises (https://gateway.zscalertwo.net/__cypress/runner/cypress_runner.js:9440:18)
+    at _drainQueueStep (https://gateway.zscalertwo.net/__cypress/runner/cypress_runner.js:6034:12)
+    at _drainQueue (https://gateway.zscalertwo.net/__cypress/runner/cypress_runner.js:6027:9)
+    at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://gateway.zscalertwo.net/__cypress/runner/cypress_runner.js:6043:5)
+    at Async.drainQueues (https://gateway.zscalertwo.net/__cypress/runner/cypress_runner.js:5913:14)
+From Your Spec Code:
+    at Context.eval (webpack:///./cypress/support/commands.js:31:7)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

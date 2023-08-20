@@ -1,0 +1,126 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-12-08T08:04:55.704Z",
+    "end": "2022-12-08T08:06:10.010Z",
+    "duration": 74204,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "0c90f5ec-3d55-4040-aae7-22cd19ac3e07",
+      "title": "",
+      "fullFile": "cypress\\e2e\\HomePage\\homepage.cy.js",
+      "file": "cypress\\e2e\\HomePage\\homepage.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "41ae9e9b-6556-4c71-a3e1-b7c9f156305a",
+          "title": "Create Integrator Automation Suite",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "TC001_15293 : Verify the details on Home page",
+              "fullTitle": "Create Integrator Automation Suite TC001_15293 : Verify the details on Home page",
+              "timedOut": null,
+              "duration": 40402,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "containerHomePage.subheader();\ncontainerHomePage.homePageTab();\ncontainerHomePage.defaultselect();\ncontainerHomePage.clickonReportTab();\ncy.location('pathname').should('contain', '/myreports');\ncontainerHomePage.clickonExecutionsTab();\ncy.location('pathname').should('contain', '/my-execution');\ncontainerHomePage.clickonReportQueueTab();\ncy.location('pathname').should('contain', '/queue');\ncontainerHomePage.clickonManageOwTab();\ncy.location('pathname').should('contain', '/container-ownership');\ncontainerHomePage.searchbox();\ncontainerHomePage.clickonContainerstab();\ncy.location('pathname').should('contain', '/integrations');\ncontainerHomePage.containersTable();",
+              "err": {},
+              "uuid": "454bc293-d5a8-4de3-84d8-19cdd33abd97",
+              "parentUUID": "41ae9e9b-6556-4c71-a3e1-b7c9f156305a",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "TC002_15294 : Verify the details on Home page",
+              "fullTitle": "Create Integrator Automation Suite TC002_15294 : Verify the details on Home page",
+              "timedOut": null,
+              "duration": 33802,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "containerHomePage.containerTableAttributes();\ncontainerHomePage.tableAttributeClickable();\ncontainerHomePage.optionsUnderActions();\ncontainerHomePage.clickOnContainerId();\ncy.location('pathname').should('contain', '/reports');\nreportsPage.backHomeButton();\ncontainerHomePage.clickOnUserUnderCreatedBy();\ncy.url().should('contain', '/profiles/profile');\ncy.go('back');\ncontainerHomePage.clickOnUserUnderModifiedBy();\ncy.url().should('contain', '/profiles/profile');\ncy.go('back');\ncontainerHomePage.clickOnViewContainer();\ncy.location('pathname').should('contain', '/reports');\ncontainerHomePage.clickOnAccessConsole();\ncy.location('pathname').should('contain', '/access');",
+              "err": {},
+              "uuid": "b2692a12-e353-4034-bf7e-377de527bd3f",
+              "parentUUID": "41ae9e9b-6556-4c71-a3e1-b7c9f156305a",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "454bc293-d5a8-4de3-84d8-19cdd33abd97",
+            "b2692a12-e353-4034-bf7e-377de527bd3f"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 74204,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "charts": true,
+        "reportPageTitle": "My Test Suite",
+        "embeddedScreenshots": true,
+        "inlineAssets": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

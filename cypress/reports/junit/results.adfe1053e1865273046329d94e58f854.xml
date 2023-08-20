@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="77.266" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-12-08T08:03:36" tests="0" file="cypress\e2e\Container\container.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Create Integrator Automation Suite" timestamp="2022-12-08T08:03:36" tests="2" time="77.251" failures="0">
+    <testcase name="Create Integrator Automation Suite TC003_15333 : Part 1 - Verify the details displayed on Container experience modal window" time="37.924" classname="TC003_15333 : Part 1 - Verify the details displayed on Container experience modal window">
+    </testcase>
+    <testcase name="Create Integrator Automation Suite TC003_15333 : Part 2 - Verify the details displayed on Container experience modal window" time="39.274" classname="TC003_15333 : Part 2 - Verify the details displayed on Container experience modal window">
+    </testcase>
+  </testsuite>
+</testsuites>

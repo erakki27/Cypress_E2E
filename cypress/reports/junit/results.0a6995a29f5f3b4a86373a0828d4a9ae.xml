@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="74.306" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-12-08T08:04:55" tests="0" file="cypress\e2e\HomePage\homepage.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Create Integrator Automation Suite" timestamp="2022-12-08T08:04:55" tests="2" time="74.294" failures="0">
+    <testcase name="Create Integrator Automation Suite TC001_15293 : Verify the details on Home page" time="40.402" classname="TC001_15293 : Verify the details on Home page">
+    </testcase>
+    <testcase name="Create Integrator Automation Suite TC002_15294 : Verify the details on Home page" time="33.802" classname="TC002_15294 : Verify the details on Home page">
+    </testcase>
+  </testsuite>
+</testsuites>
