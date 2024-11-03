@@ -1,4 +1,4 @@
-///<reference types="cypress" />
+//<reference types='cypress'/>
 
 //import ScriptHelper from "../support/helpers/scriptHelper.js"
 import CreateContainerModal from '../../pageObjectStage/createContainerModal.js';
